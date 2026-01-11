@@ -1,0 +1,57 @@
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.carousel-item{
+    max-height: 107vh;
+}
+.card-img-top{
+    height: 200px;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main h3{
+    margin-bottom: 10%;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: -1%;
+    font-size: 20px;
+}
+.copytext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Slogan p{
+    width: 100px;
+    text-align: start;
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+}
+.contactme p{
+    column-gap: 10px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    /* color:#fff; */
+}
