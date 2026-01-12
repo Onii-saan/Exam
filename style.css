@@ -1,31 +1,44 @@
+                /* Home Page  */
+
+/* navbar */
 .logo{
     height: 50px;
     width: 50px;
 }
+/* navbar End */
+
+/* Banner  */
+
 .carousel-item{
     max-height: 107vh;
 }
+/* Banner End */
+
+/* best-sell */
 .card-img-top{
     height: 200px;
 }
-.card:hover{
-    transition: 0.5s;
+.best-sell .card{
+    transition: all 0.5s ease;
+}
+.best-sell .card:hover{
+    transform: scale(1.05);
+    
+}
+/* best-sell End */
+
+/* New Product */
+
+.new-product .card{
+    transition: all 0.5s ease;
+}
+.new-product .card:hover{
     transform: scale(1.05);
 }
-.row{
-    display: flex;
-    flex-direction: column;
-}
 
+/* New Product End */
 
-
-.main{
-    display: flex;
-    flex-direction: column;
-}
-.main h3{
-    margin-bottom: 10%;
-}
+/* Footer  */
 .time{
     display: flex;
     justify-content: center;
@@ -39,15 +52,18 @@
     justify-content: space-around;
 }
 .Slogan p{
-    width: 100px;
+    width: 250px;
     text-align: start;
+}
+.links li{
+    margin: 2px;
 }
 .links li a{
     text-decoration: none;
     color: white;
 }
 .contactme p{
-    column-gap: 10px;
+    margin: 5px;
 }
 .line{
     height: 1px;
@@ -55,3 +71,81 @@
     background-color: #fff;
     /* color:#fff; */
 }
+/* Footer End */
+
+                   /* Home Page end */
+
+
+                 /* Product Details Page  */
+.zoom-product .row{
+    border-radius: 15px;
+}
+.img-zoom{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.img-zoom-img{
+    width: 100%;
+    transition: all .2s ease;
+}
+.img-zoom-img:hover{
+    transform: scale(1.5);
+}
+
+
+               /* Product Details Page End */
+
+
+
+               /* Sign Up Page  */
+
+.signupmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.signupform{
+    margin-top: 5%;
+    max-width: 600px;
+    max-height: 600px;
+    /* border: 1px solid beige; */
+    border-radius: 15px;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.signupform form{
+    padding: 50px;
+    border-radius: 15px;
+}
+
+               /* Sign Up Page End */
+
+               /* Login Page  */
+
+.loginmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login{
+    margin-top: 10%;
+    max-width: 400px;
+    max-height: 700px;
+    /* border: 1px solid beige; */
+    border-radius: 15px;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.login form{
+    padding: 50px;
+    border-radius: 15px;
+    row-gap: 15px;
+}
+
+               /* Login Page End */
